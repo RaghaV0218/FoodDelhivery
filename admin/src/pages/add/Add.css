@@ -1,0 +1,35 @@
+.Add{
+    width: 70%;
+    margin-left: max(5vw,25px);
+    margin-top: 50px;
+    color: #6d6d6d;
+    font-size: 16px;
+}
+.Add form{
+    gap: 20px;
+}
+.Add-Img-Upload img{
+    width: 120px;
+}
+.Add-Prod-Name, .Add-Prod-Description{
+    width: max(40%,280px);
+}
+.Add-Prod-Name input, .Add-Prod-Description textarea{
+    padding: 10px;
+}
+.Add-Category-Price{
+    display: flex;
+    gap: 30px;
+}
+.Add-Category-Price select, .Add-Category-Price input{
+    max-width: 120px;
+    padding: 10px;
+}
+.Add-Btn{
+    max-width: 120px;
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
